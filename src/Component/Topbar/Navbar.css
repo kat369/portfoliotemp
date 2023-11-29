@@ -1,0 +1,52 @@
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+   
+    box-shadow: 0px 2px rgb(212, 212, 212);
+    padding: 40px 0px;
+    align-items: center;
+    background: white;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-left{
+    position:absolute;
+    left:3%;
+    width: fit-content;
+}
+.navbar-right{
+    position: absolute;
+    right: 20%;
+}
+.list-of-list{
+    display: flex;
+    flex-direction: row;
+    gap:15%;
+}
+.hero-name-logo{
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+    font-family: cursive;
+}
+span{
+    color: rgb(13,183,95);
+}
+.list-of-list{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+.home:hover,
+.skill:hover,
+.about:hover,
+.contact:hover,
+.project:hover{
+
+    color: rgb(13,183,95);
+}
