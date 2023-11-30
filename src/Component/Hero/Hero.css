@@ -32,7 +32,7 @@
     position: relative;
 width:450px;
 height: 352px;
-
+filter: drop-shadow(10px 10px 10px rgb(10, 10, 10));
 object-fit: cover;
 object-position:100% 24%;
 }
