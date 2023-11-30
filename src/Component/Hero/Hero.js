@@ -3,7 +3,7 @@ import "./Hero.css"
 import hero from "../Image/heros.png"
 function Hero() {
   return <>
-  <section className='hero-section-container'>
+  <section id='home' className='hero-section-container'>
     <div className='hero-left'>  
       <div className='welcome'><span>Welcome</span></div>
     <div className='name'>This is <span>Kathiravan</span> Arjunan</div>
@@ -16,7 +16,7 @@ function Hero() {
     <div className='hero-right'>
       <div className='sq'></div>
       <div className='sq1'></div>
-        <img className='vert-move' src={hero} alt='hero image'/>
+        <img className='vert-move' src={hero} alt='heroimage'/>
     </div>
 
   </section>

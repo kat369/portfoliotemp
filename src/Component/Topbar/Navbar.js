@@ -8,11 +8,11 @@ function Navbar() {
     </div>
     <div className='navbar-right'>
       <div className='list-of-list'>
-        <a href='#about' className='home'>Home</a>
-        <div className='about'>About</div>
-        <div className='skill'>Skill</div>
-        <div className='project'>Project</div>
-        <div className='contact'>Contact</div>
+        <a href='#home' className='home'>Home</a>
+        <a href='#about' className='about'>About</a>
+        <a href='#skill'className='skill'>Skill</a>
+        <a href='#project' className='project'>Project</a>
+        <a href='#contact' className='contact'>Contact</a>
       </div>
     </div>
   </section>
