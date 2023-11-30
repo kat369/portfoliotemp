@@ -1,0 +1,43 @@
+.contact-container{
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-tittle{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgb(9, 128, 66);
+}
+.ic{
+font-size: 30px;
+}
+.logo-name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.type{
+    font-size: 18px;
+    font-weight: 600;
+}
+.white-container{
+    background:white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    padding: 30px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px 0px, rgba(0, 0, 0, 0.1) 0px 0px 3px 0px;
+}
+.sub-add-container{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

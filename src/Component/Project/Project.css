@@ -1,3 +1,100 @@
 #project{
     padding: 40px 20px;
 }
+.project-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.hires{
+    height: 50px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px 0px, rgba(0, 0, 0, 0.1) 0px 0px 3px 0px;
+}
+.project-title{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgb(9, 128, 66);
+}
+.sub-pro-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center; 
+       font-size: 20px;
+    font-weight: 700;
+}
+.credential-container{
+    display: flex;
+    flex-direction: row; 
+       gap:30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ 
+
+}
+.sub-cren{
+    font-weight: normal;
+    font-size: 16px;
+padding: 10px;
+width: 300px;
+background: white;
+box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px 0px, rgba(0, 0, 0, 0.1) 0px 0px 3px 0px;
+}
+.type-name{
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.auth{
+    padding-bottom: 5px;
+    font-weight: bold;
+    color:rgb(9, 128, 66) ;
+}
+.pro-container{
+   
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+    justify-content: center; 
+      flex-wrap: wrap;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    justify-content: center;
+      /* border: 1px solid black;  */
+      gap:20px;
+      padding:8px;
+   
+      font-weight: normal;
+      background: white;
+      font-size: 15px;
+      text-align: justify;
+      line-height: 30px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px 0px, rgba(0, 0, 0, 0.1) 0px 0px 3px 0px;
+}
+.cover img{
+    padding-top: 10px;
+    width: 300px;
+}
+.whole-button{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
