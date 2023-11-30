@@ -11,6 +11,7 @@ function Hero() {
     <div className='link'>
     <i class="fa fa-github"></i>
     <i class="fa fa-linkedin"></i>
+    <button id='hire' className='hire'>Resume</button>
     </div>
     </div>
     <div className='hero-right'>
